@@ -11,5 +11,5 @@ algorithm.
 - OS X / Cocoa for UI
 
 ### Example
-Plot magnified image intensity as pulse rate.
+Plot pulse rate from image intensity.
 ![mmagresult](https://raw.github.com/lmurmann/mmag/master/result.png)
