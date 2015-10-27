@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B920728D1A33F3B8006E02E9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B920728C1A33F3B8006E02E9 /* main.cpp */; };
+		B92072941A33F3CD006E02E9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BDB6101A294ABC009B6195 /* libc++.dylib */; };
+		B92072971A33F4F4006E02E9 /* camcapture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B92072951A33F4F4006E02E9 /* camcapture.cpp */; };
+		B96B1A6E1A2A625B00885930 /* imsequence_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96B1A6D1A2A625B00885930 /* imsequence_filter.cpp */; };
+		B9A323BC1BE0232F00121E5B /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = B9A323BB1BE0232F00121E5B /* shaders */; };
+		B9A323C61BE027D200121E5B /* libopencv_core.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C31BE027D200121E5B /* libopencv_core.2.4.10.dylib */; };
+		B9A323C71BE027D200121E5B /* libopencv_highgui.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C41BE027D200121E5B /* libopencv_highgui.2.4.10.dylib */; };
+		B9A323C81BE027D200121E5B /* libopencv_imgproc.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C51BE027D200121E5B /* libopencv_imgproc.2.4.10.dylib */; };
+		B9A323C91BE027DF00121E5B /* libopencv_core.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C31BE027D200121E5B /* libopencv_core.2.4.10.dylib */; };
+		B9A323CA1BE027DF00121E5B /* libopencv_highgui.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C41BE027D200121E5B /* libopencv_highgui.2.4.10.dylib */; };
+		B9A323CB1BE027DF00121E5B /* libopencv_imgproc.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C51BE027D200121E5B /* libopencv_imgproc.2.4.10.dylib */; };
+		B9A323CF1BE027FF00121E5B /* libopencv_core.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C31BE027D200121E5B /* libopencv_core.2.4.10.dylib */; };
+		B9A323D01BE027FF00121E5B /* libopencv_highgui.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C41BE027D200121E5B /* libopencv_highgui.2.4.10.dylib */; };
+		B9A323D11BE027FF00121E5B /* libopencv_imgproc.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A323C51BE027D200121E5B /* libopencv_imgproc.2.4.10.dylib */; };
+		B9BDB5E71A293F7B009B6195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB5E61A293F7B009B6195 /* AppDelegate.m */; };
+		B9BDB5E91A293F7B009B6195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB5E81A293F7B009B6195 /* main.m */; };
+		B9BDB5EB1A293F7B009B6195 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BDB5EA1A293F7B009B6195 /* Images.xcassets */; };
+		B9BDB5EE1A293F7B009B6195 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9BDB5EC1A293F7B009B6195 /* MainMenu.xib */; };
+		B9BDB60A1A294057009B6195 /* LMVideoView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB6091A294057009B6195 /* LMVideoView.mm */; };
+		B9BDB60C1A2940C4009B6195 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BDB60B1A2940C4009B6195 /* OpenGL.framework */; };
+		B9BDB60F1A2948F3009B6195 /* videorenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB60D1A2948F3009B6195 /* videorenderer.cpp */; };
+		B9BDB6111A294ABC009B6195 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BDB6101A294ABC009B6195 /* libc++.dylib */; };
+		B9BDB61C1A29630C009B6195 /* imsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB6181A29630C009B6195 /* imsequence.cpp */; };
+		B9BDB61D1A29630C009B6195 /* laplacepyr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB61A1A29630C009B6195 /* laplacepyr.cpp */; };
+		B9BDB6261A297368009B6195 /* lum_glutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB6241A297368009B6195 /* lum_glutil.cpp */; };
+		B9BDB62E1A297A1A009B6195 /* lum_glcv_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB62C1A297A1A009B6195 /* lum_glcv_util.cpp */; };
+		B9C56F811A2A91A6001D6E05 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9C56F801A2A91A6001D6E05 /* main.cpp */; };
+		B9C56F881A2A91F0001D6E05 /* imsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB6181A29630C009B6195 /* imsequence.cpp */; };
+		B9C56F891A2A91F0001D6E05 /* imsequence_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96B1A6D1A2A625B00885930 /* imsequence_filter.cpp */; };
+		B9C56F8A1A2A91F0001D6E05 /* laplacepyr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9BDB61A1A29630C009B6195 /* laplacepyr.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B92072881A33F3B8006E02E9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B9C56F7C1A2A91A6001D6E05 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B920728A1A33F3B8006E02E9 /* CamCapture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CamCapture; sourceTree = BUILT_PRODUCTS_DIR; };
+		B920728C1A33F3B8006E02E9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B92072951A33F4F4006E02E9 /* camcapture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camcapture.cpp; sourceTree = "<group>"; };
+		B92072961A33F4F4006E02E9 /* camcapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camcapture.h; sourceTree = "<group>"; };
+		B96B1A6D1A2A625B00885930 /* imsequence_filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imsequence_filter.cpp; sourceTree = "<group>"; };
+		B9A323BB1BE0232F00121E5B /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shaders; path = ../shaders; sourceTree = "<group>"; };
+		B9A323C31BE027D200121E5B /* libopencv_core.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.10.dylib; path = /usr/local/lib/libopencv_core.2.4.10.dylib; sourceTree = "<absolute>"; };
+		B9A323C41BE027D200121E5B /* libopencv_highgui.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.10.dylib; path = ../../../../../../usr/local/lib/libopencv_highgui.2.4.10.dylib; sourceTree = "<group>"; };
+		B9A323C51BE027D200121E5B /* libopencv_imgproc.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.10.dylib; path = ../../../../../../usr/local/lib/libopencv_imgproc.2.4.10.dylib; sourceTree = "<group>"; };
+		B9BDB5E01A293F7B009B6195 /* mmag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BDB5E41A293F7B009B6195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BDB5E51A293F7B009B6195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9BDB5E61A293F7B009B6195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9BDB5E81A293F7B009B6195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9BDB5EA1A293F7B009B6195 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9BDB5ED1A293F7B009B6195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B9BDB6081A294057009B6195 /* LMVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMVideoView.h; sourceTree = "<group>"; };
+		B9BDB6091A294057009B6195 /* LMVideoView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LMVideoView.mm; sourceTree = "<group>"; };
+		B9BDB60B1A2940C4009B6195 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B9BDB60D1A2948F3009B6195 /* videorenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = videorenderer.cpp; sourceTree = "<group>"; };
+		B9BDB60E1A2948F3009B6195 /* videorenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videorenderer.h; sourceTree = "<group>"; };
+		B9BDB6101A294ABC009B6195 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B9BDB6181A29630C009B6195 /* imsequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imsequence.cpp; path = ../../imsequence.cpp; sourceTree = "<group>"; };
+		B9BDB6191A29630C009B6195 /* imsequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imsequence.h; path = ../../imsequence.h; sourceTree = "<group>"; };
+		B9BDB61A1A29630C009B6195 /* laplacepyr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = laplacepyr.cpp; path = ../../laplacepyr.cpp; sourceTree = "<group>"; };
+		B9BDB61B1A29630C009B6195 /* laplacepyr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = laplacepyr.h; path = ../../laplacepyr.h; sourceTree = "<group>"; };
+		B9BDB6241A297368009B6195 /* lum_glutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lum_glutil.cpp; sourceTree = "<group>"; };
+		B9BDB6251A297368009B6195 /* lum_glutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lum_glutil.h; sourceTree = "<group>"; };
+		B9BDB62C1A297A1A009B6195 /* lum_glcv_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lum_glcv_util.cpp; sourceTree = "<group>"; };
+		B9BDB62D1A297A1A009B6195 /* lum_glcv_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lum_glcv_util.h; sourceTree = "<group>"; };
+		B9C56F7E1A2A91A6001D6E05 /* PyrTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PyrTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C56F801A2A91A6001D6E05 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B92072871A33F3B8006E02E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A323CF1BE027FF00121E5B /* libopencv_core.2.4.10.dylib in Frameworks */,
+				B92072941A33F3CD006E02E9 /* libc++.dylib in Frameworks */,
+				B9A323D01BE027FF00121E5B /* libopencv_highgui.2.4.10.dylib in Frameworks */,
+				B9A323D11BE027FF00121E5B /* libopencv_imgproc.2.4.10.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BDB5DD1A293F7B009B6195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BDB6111A294ABC009B6195 /* libc++.dylib in Frameworks */,
+				B9A323C61BE027D200121E5B /* libopencv_core.2.4.10.dylib in Frameworks */,
+				B9BDB60C1A2940C4009B6195 /* OpenGL.framework in Frameworks */,
+				B9A323C81BE027D200121E5B /* libopencv_imgproc.2.4.10.dylib in Frameworks */,
+				B9A323C71BE027D200121E5B /* libopencv_highgui.2.4.10.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C56F7B1A2A91A6001D6E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A323CB1BE027DF00121E5B /* libopencv_imgproc.2.4.10.dylib in Frameworks */,
+				B9A323C91BE027DF00121E5B /* libopencv_core.2.4.10.dylib in Frameworks */,
+				B9A323CA1BE027DF00121E5B /* libopencv_highgui.2.4.10.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B920728B1A33F3B8006E02E9 /* CamCapture */ = {
+			isa = PBXGroup;
+			children = (
+				B920728C1A33F3B8006E02E9 /* main.cpp */,
+			);
+			path = CamCapture;
+			sourceTree = "<group>";
+		};
+		B9BDB5D71A293F7B009B6195 = {
+			isa = PBXGroup;
+			children = (
+				B9A323C31BE027D200121E5B /* libopencv_core.2.4.10.dylib */,
+				B9A323C41BE027D200121E5B /* libopencv_highgui.2.4.10.dylib */,
+				B9A323C51BE027D200121E5B /* libopencv_imgproc.2.4.10.dylib */,
+				B9A323BB1BE0232F00121E5B /* shaders */,
+				B9BDB6101A294ABC009B6195 /* libc++.dylib */,
+				B9BDB60B1A2940C4009B6195 /* OpenGL.framework */,
+				B9BDB5E21A293F7B009B6195 /* mmag */,
+				B9C56F7F1A2A91A6001D6E05 /* PyrTest */,
+				B920728B1A33F3B8006E02E9 /* CamCapture */,
+				B9BDB5E11A293F7B009B6195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9BDB5E11A293F7B009B6195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9BDB5E01A293F7B009B6195 /* mmag.app */,
+				B9C56F7E1A2A91A6001D6E05 /* PyrTest */,
+				B920728A1A33F3B8006E02E9 /* CamCapture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BDB5E21A293F7B009B6195 /* mmag */ = {
+			isa = PBXGroup;
+			children = (
+				B9BDB6241A297368009B6195 /* lum_glutil.cpp */,
+				B9BDB6251A297368009B6195 /* lum_glutil.h */,
+				B9BDB62C1A297A1A009B6195 /* lum_glcv_util.cpp */,
+				B9BDB62D1A297A1A009B6195 /* lum_glcv_util.h */,
+				B9BDB6181A29630C009B6195 /* imsequence.cpp */,
+				B96B1A6D1A2A625B00885930 /* imsequence_filter.cpp */,
+				B9BDB6191A29630C009B6195 /* imsequence.h */,
+				B9BDB61A1A29630C009B6195 /* laplacepyr.cpp */,
+				B9BDB61B1A29630C009B6195 /* laplacepyr.h */,
+				B9BDB5E51A293F7B009B6195 /* AppDelegate.h */,
+				B9BDB5E61A293F7B009B6195 /* AppDelegate.m */,
+				B9BDB5EA1A293F7B009B6195 /* Images.xcassets */,
+				B9BDB5EC1A293F7B009B6195 /* MainMenu.xib */,
+				B9BDB5E31A293F7B009B6195 /* Supporting Files */,
+				B9BDB6081A294057009B6195 /* LMVideoView.h */,
+				B9BDB6091A294057009B6195 /* LMVideoView.mm */,
+				B9BDB60D1A2948F3009B6195 /* videorenderer.cpp */,
+				B9BDB60E1A2948F3009B6195 /* videorenderer.h */,
+				B92072951A33F4F4006E02E9 /* camcapture.cpp */,
+				B92072961A33F4F4006E02E9 /* camcapture.h */,
+			);
+			path = mmag;
+			sourceTree = "<group>";
+		};
+		B9BDB5E31A293F7B009B6195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BDB5E41A293F7B009B6195 /* Info.plist */,
+				B9BDB5E81A293F7B009B6195 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9C56F7F1A2A91A6001D6E05 /* PyrTest */ = {
+			isa = PBXGroup;
+			children = (
+				B9C56F801A2A91A6001D6E05 /* main.cpp */,
+			);
+			path = PyrTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B92072891A33F3B8006E02E9 /* CamCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92072901A33F3B8006E02E9 /* Build configuration list for PBXNativeTarget "CamCapture" */;
+			buildPhases = (
+				B92072861A33F3B8006E02E9 /* Sources */,
+				B92072871A33F3B8006E02E9 /* Frameworks */,
+				B92072881A33F3B8006E02E9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamCapture;
+			productName = CamCapture;
+			productReference = B920728A1A33F3B8006E02E9 /* CamCapture */;
+			productType = "com.apple.product-type.tool";
+		};
+		B9BDB5DF1A293F7B009B6195 /* mmag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BDB5FD1A293F7B009B6195 /* Build configuration list for PBXNativeTarget "mmag" */;
+			buildPhases = (
+				B9BDB5DC1A293F7B009B6195 /* Sources */,
+				B9BDB5DD1A293F7B009B6195 /* Frameworks */,
+				B9BDB5DE1A293F7B009B6195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mmag;
+			productName = mmag;
+			productReference = B9BDB5E01A293F7B009B6195 /* mmag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9C56F7D1A2A91A6001D6E05 /* PyrTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C56F841A2A91A6001D6E05 /* Build configuration list for PBXNativeTarget "PyrTest" */;
+			buildPhases = (
+				B9C56F7A1A2A91A6001D6E05 /* Sources */,
+				B9C56F7B1A2A91A6001D6E05 /* Frameworks */,
+				B9C56F7C1A2A91A6001D6E05 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyrTest;
+			productName = PyrTest;
+			productReference = B9C56F7E1A2A91A6001D6E05 /* PyrTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9BDB5D81A293F7B009B6195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mit;
+				TargetAttributes = {
+					B92072891A33F3B8006E02E9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B9BDB5DF1A293F7B009B6195 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B9C56F7D1A2A91A6001D6E05 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = B9BDB5DB1A293F7B009B6195 /* Build configuration list for PBXProject "mmag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9BDB5D71A293F7B009B6195;
+			productRefGroup = B9BDB5E11A293F7B009B6195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9BDB5DF1A293F7B009B6195 /* mmag */,
+				B9C56F7D1A2A91A6001D6E05 /* PyrTest */,
+				B92072891A33F3B8006E02E9 /* CamCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9BDB5DE1A293F7B009B6195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A323BC1BE0232F00121E5B /* shaders in Resources */,
+				B9BDB5EB1A293F7B009B6195 /* Images.xcassets in Resources */,
+				B9BDB5EE1A293F7B009B6195 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B92072861A33F3B8006E02E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B920728D1A33F3B8006E02E9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BDB5DC1A293F7B009B6195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BDB62E1A297A1A009B6195 /* lum_glcv_util.cpp in Sources */,
+				B9BDB61D1A29630C009B6195 /* laplacepyr.cpp in Sources */,
+				B96B1A6E1A2A625B00885930 /* imsequence_filter.cpp in Sources */,
+				B92072971A33F4F4006E02E9 /* camcapture.cpp in Sources */,
+				B9BDB60F1A2948F3009B6195 /* videorenderer.cpp in Sources */,
+				B9BDB60A1A294057009B6195 /* LMVideoView.mm in Sources */,
+				B9BDB61C1A29630C009B6195 /* imsequence.cpp in Sources */,
+				B9BDB6261A297368009B6195 /* lum_glutil.cpp in Sources */,
+				B9BDB5E91A293F7B009B6195 /* main.m in Sources */,
+				B9BDB5E71A293F7B009B6195 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C56F7A1A2A91A6001D6E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C56F8A1A2A91F0001D6E05 /* laplacepyr.cpp in Sources */,
+				B9C56F891A2A91F0001D6E05 /* imsequence_filter.cpp in Sources */,
+				B9C56F881A2A91F0001D6E05 /* imsequence.cpp in Sources */,
+				B9C56F811A2A91A6001D6E05 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9BDB5EC1A293F7B009B6195 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BDB5ED1A293F7B009B6195 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B920728E1A33F3B8006E02E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B920728F1A33F3B8006E02E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9BDB5FB1A293F7B009B6195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					"/usr/local/include/pixman-1",
+					/usr/local/include/cairo,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B9BDB5FC1A293F7B009B6195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					"/usr/local/include/pixman-1",
+					/usr/local/include/cairo,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B9BDB5FE1A293F7B009B6195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mmag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/lum/code/6.869/mmag/libs,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9BDB5FF1A293F7B009B6195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = mmag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/lum/code/6.869/mmag/libs,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9C56F821A2A91A6001D6E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9C56F831A2A91A6001D6E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B92072901A33F3B8006E02E9 /* Build configuration list for PBXNativeTarget "CamCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B920728E1A33F3B8006E02E9 /* Debug */,
+				B920728F1A33F3B8006E02E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BDB5DB1A293F7B009B6195 /* Build configuration list for PBXProject "mmag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BDB5FB1A293F7B009B6195 /* Debug */,
+				B9BDB5FC1A293F7B009B6195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BDB5FD1A293F7B009B6195 /* Build configuration list for PBXNativeTarget "mmag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BDB5FE1A293F7B009B6195 /* Debug */,
+				B9BDB5FF1A293F7B009B6195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C56F841A2A91A6001D6E05 /* Build configuration list for PBXNativeTarget "PyrTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C56F821A2A91A6001D6E05 /* Debug */,
+				B9C56F831A2A91A6001D6E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9BDB5D81A293F7B009B6195 /* Project object */;
+}
